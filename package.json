@@ -1,0 +1,32 @@
+{
+  "name": "lit-app-starter",
+  "displayName": "Lit-App starter kit",
+  "themeColor": "#ffffff",
+  "version": "0.1.0",
+  "description": "Webapp starter kit based on Lit-HTML and Web Components.",
+  "main": "src/index.js",
+  "repository": "git@github.com:moebiusmania/lit-app-starter.git",
+  "author": "Salvatore Laisa <moebiusmania@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_ENV=development webpack-dev-server --hot"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "favicons-webpack-plugin": "^0.0.9",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9",
+    "webpack-notifier": "^1.6.0",
+    "webpack-pwa-manifest": "^3.7.1",
+    "workbox-webpack-plugin": "^3.6.2"
+  },
+  "dependencies": {
+    "lit-html": "^0.11.4",
+    "normalize.css": "^8.0.0",
+    "pwa-helpers": "^0.8.3"
+  }
+}
